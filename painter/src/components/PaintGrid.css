@@ -1,0 +1,14 @@
+.painterBlock {
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+  }
+
+  .button{
+    border-color: #0a0a0a;
+  }
+
+  .column{
+
+    padding: 0;
+  }
