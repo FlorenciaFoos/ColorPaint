@@ -2,10 +2,10 @@ import React from "react";
 import { PainterContext } from '../contexts/PainterContext';
 
 function ColorPreview(props) {
-  const {color} = React.useContext(PainterContext);
+  const { color } = React.useContext(PainterContext);
 
   return (
-    <div className="colorPreview">Color selected: {color.name}</div>
+    <div className="colorPreview"><strong> Color selected:</strong>  {color.name}</div>
   );
 }
 
