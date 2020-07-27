@@ -11,7 +11,8 @@ export const colors = [
   { name: "yellow", hex: "#FFCE00" },
   { name: "green", hex: "#9AC836" },
   { name: "light blue", hex: "#33A6B2" },
-  { name: "light purple", hex: "#9370db" }
+  { name: "light purple", hex: "#9370db" },
+
 ];
 
 // create painter context

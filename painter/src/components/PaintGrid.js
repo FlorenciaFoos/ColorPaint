@@ -34,12 +34,12 @@ function PaintGrid(_) {
 
   const resetBtn = () => {
     return (
-      <div className="column">
-        <button className="button is-outlined"  onClick={() => setGrid(initGrid)}>Reset</button>
+      <div className="columnbutton">
+        <button className="button is-outlined " onClick={() => setGrid(initGrid)}>Reset</button>
       </div>
     );
   };
- 
+
   const drawTableCell = (r_i, c_i) => {
     return (
       <td
@@ -56,7 +56,7 @@ function PaintGrid(_) {
 
   const drawTableRows = (row, r_i) => {
     return (
-      <tr key={r_i}>{row.map((col, c_i) => { return drawTableCell(r_i, c_i)})}</tr>
+      <tr key={r_i}>{row.map((col, c_i) => { return drawTableCell(r_i, c_i) })}</tr>
     );
   };
 
@@ -65,7 +65,7 @@ function PaintGrid(_) {
       <div className="column">
         <table>
           <tbody>
-          {grid.map((row, r_i) => { return drawTableRows(row, r_i)})}
+            {grid.map((row, r_i) => { return drawTableRows(row, r_i) })}
           </tbody>
         </table>
       </div>

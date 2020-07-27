@@ -1,6 +1,8 @@
 import React from "react";
 import "./ColorPicker.css";
 import { PainterContext } from "../contexts/PainterContext";
+import icon from './../images/paint.png'
+
 
 function ColorPicker(_) {
   const { colors, setColor } = React.useContext(PainterContext);
@@ -22,7 +24,7 @@ function ColorPicker(_) {
     });
   };
 
-  return <div className="colorpicker">{colorOptions()}</div>;
+  return <div className="colorpicker"> <img src={icon} alt="paintbucket" /> {colorOptions()}</div>;
 }
 
 export default ColorPicker;

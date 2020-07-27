@@ -11,6 +11,13 @@
   }
 
   .column{
-
+    width: 70%;
+    display: inline-grid;
     padding: 0;
+  }
+
+  .columnbutton{
+  float: right;
+  margin-right: 1%;
+    width: 18%;
   }

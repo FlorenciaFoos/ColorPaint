@@ -11,12 +11,14 @@ function App() {
 
   return (
     <div className="App container">
-      <PainterContext.Provider value={{colors, color, setColor}}>
+      <PainterContext.Provider value={{ colors, color, setColor }}>
         <h1 className='title'>Let´s paint!</h1>
-        <ColorPicker />
+
         <ColorPreview />
-        <br />
-        <PaintGrid />
+        <div className='divgrupo'>
+          <ColorPicker />
+          <PaintGrid />
+        </div>
       </PainterContext.Provider>
     </div>
   );
