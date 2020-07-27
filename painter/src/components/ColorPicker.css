@@ -4,3 +4,13 @@
   height: 50px;
   border: 1px solid black;
 }
+
+.colorpicker{
+
+  display: inline-grid;
+  width: 20%;
+}
+
+img{
+  max-width: 57%;
+}
