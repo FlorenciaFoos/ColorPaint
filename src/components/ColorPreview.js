@@ -5,7 +5,7 @@ function ColorPreview(props) {
   const { color } = React.useContext(PainterContext);
 
   return (
-    <div className="colorPreview"><strong> Color selected:</strong>  {color.name}</div>
+    <div className="colorPreview"><strong> Color seleccionado:</strong>  {color.name}</div>
   );
 }
 
