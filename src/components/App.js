@@ -12,7 +12,7 @@ function App() {
   return (
     <div className="App container">
       <PainterContext.Provider value={{ colors, color, setColor }}>
-        <h1 className='title'>Let´s paint!</h1>
+        <h1 className='title'>Vamos a pintar!</h1>
 
         <ColorPreview />
         <div className='divgrupo'>
